@@ -40,6 +40,8 @@ public class Main {
         Company companyWithDeals = new Company("A company with deals", new TaxSystem());
         companyWithDeals.setTaxSystem(new TaxSystem15());
 
+
+
         companyWithDeals.getDeals()[0] = new Sale("Товар_0", 100);
         companyWithDeals.getDeals()[1] = new Expenditure("Товар_1", 10);
         companyWithDeals.getDeals()[2] = new Sale("Товар_2", 100);
